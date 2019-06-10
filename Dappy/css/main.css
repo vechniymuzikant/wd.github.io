@@ -1,0 +1,239 @@
+body {
+    line-height: 1;
+    color: #1F2431;
+    background: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+}
+
+.logo {
+
+}
+
+.nav {
+
+}
+
+.social_webs {
+
+}
+
+.logo a {
+    display: block;
+}
+
+.logo img {
+    width: 10.09583vw;
+    padding: 3.16vw 0 3.16vw 3.83vw;
+}
+
+.nav a {
+    height: 8.50416vw;
+    line-height: 8.50416vw;
+    color: #1F2431;
+    font-size: 1.33vw;
+    margin-left: 3vw;
+    padding-bottom: 0.1vw;
+    border-bottom: 0.12vw solid white;
+    transition-duration: 1s;
+}
+
+.nav a:hover {
+    border-bottom: 0.12vw solid #315EFB;
+    transition-duration: 1s;
+}
+
+.social_webs .wrap {
+    position: absolute;
+    right: 3.75vw;
+    top: 3.16vw;
+}
+
+.social_webs img {
+    width: 2vw;
+    float: left;
+    margin-right: 0.83vw;
+}
+
+.sign-up {
+    width: 84vw;
+    margin: 1.66vw auto 7.66vw;
+    display: flex;
+}
+
+.sign-up .content {
+    width: 34.5vw;
+    margin-top: 8.33vw;
+}
+
+.sign-up .picture img {
+    width: 49.5vw;
+}
+
+.sign-up .content h1 {
+    font-size: 3vw;
+    line-height: 1.28;
+    font-weight: 700;
+    margin-bottom: 1.5vw;
+}
+
+p {
+    font-size: 1.33vw;
+    line-height: 1.646;
+    font-weight: 300;
+    color: #82899B;
+}
+
+.sign-up .content p {
+    margin-bottom: 3vw;
+}
+
+.sign-up .content a {
+    font-size: 1vw;
+    padding: 1vw 4.33vw;
+    -webkit-border-radius: 4.25vw;
+    -moz-border-radius: 4.25vw;
+    border-radius: 4.25vw;
+    background-color: #315EFB;
+    color: #ffffff;
+    transition-duration: 1s;
+    border: 0.2vw solid #315EFB;
+}
+
+.sign-up .content a:hover {
+    background-color: #fff;
+    color: #315EFB;
+    transition-duration: 1s;
+}
+
+.main {
+    width: 95vw;
+    margin: 0 auto;
+    display: flex;
+}
+
+.col {
+    width: 47.083vw;
+}
+
+.column-1 {
+    margin-right: 0.83vw;
+}
+
+.col .block {
+    background-color: #FAFCFF;
+    margin-bottom: 0.83vw;
+    border-radius: 2.083vw;
+}
+
+.description {
+    height: 18.33vw;
+}
+
+.open_source, .tokens, .exchange {
+    height: 36.66vw;
+}
+
+.road_map {
+    height: 60.416vw;
+}
+
+.currency {
+    height: 42.083vw;
+}
+
+.description p {
+    display: block;
+    width: 40.416vw;
+    margin: 0 auto;
+    padding: 3.54vw 0;
+}
+
+.open_source h2 {
+    font-size: 2vw;
+    font-weight: 700;
+    padding: 3.33vw;
+}
+
+.open_source img {
+    display: block;
+    width: 18.5vw;
+    margin: 3.16vw auto 6.66vw;
+}
+
+.open_source p {
+    padding-left: 3.33vw;
+}
+
+.open_source span {
+    font-weight: 500;
+    color: #1F2431;
+}
+
+.road_map h2 {
+    padding: 3.3333vw 3.5vw;
+    font-size: 2vw;
+}
+
+.road_map .wrap {
+    width: 36.083vw;
+    margin-left: 3.33vw;
+}
+
+.road_map .wrap .row {
+    display: flex;
+}
+
+.road_map .wrap .row .element {
+    width: 11.75vw;
+    height: 9.083vw;
+    margin-top: 0.83vw;
+}
+
+.road_map .wrap .row .element .container {
+    display: flex;
+}
+
+.row .element:not(:nth-child(3))  {
+    margin-right: 0.33vw;
+}
+
+.ball img {
+    width: 1.66vw;
+}
+
+.line img {
+    width: 9.5vw;
+    height: 1.66vw;
+    margin-left: 0.416vw;
+}
+
+.element h3 {
+    font-size: 0.83vw;
+    line-height: 1.828;
+    font-weight: 300;
+}
+
+.element p {
+    font-size: 1vw;
+    line-height: 1.463;
+    padding-top: 1.998vw;
+}
+
+.element p.sp {
+    padding-top: 0.5vw;
+}
+
+.row:last-of-type .element:last-of-type p {
+    padding-top: 2.7vw;
+}
+
+.row:last-of-type .element:last-of-type img {
+    width: 1.8333vw;
+    display: block;
+    padding-top: 0.6vw;
+}
+
